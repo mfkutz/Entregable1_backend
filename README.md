@@ -42,10 +42,12 @@
 
 -- Para el carrito, el cual tendrá su router en /api/carts/, configurar dos rutas:
 
-## La ruta raíz POST / deberá crear un nuevo carrito con la siguiente estructura:
+## La ruta raíz POST / deberá crear un nuevo carrito con la siguiente estructura: ✅
 
-- Id:Number/String (A tu elección, de igual manera como con los productos, debes asegurar que nunca se dupliquen los ids y que este se autogenere).✅
-- products: Array que contendrá objetos que representen cada producto ✅
+`http://localhost:5000/api/carts`
+
+- Id:Number/String (A tu elección, de igual manera como con los productos, debes asegurar que nunca se dupliquen los ids y que este se autogenere).
+- products: Array que contendrá objetos que representen cada producto
 
 ## La ruta GET /:cid deberá listar los productos que pertenezcan al carrito con el parámetro cid proporcionados. ✅
 
