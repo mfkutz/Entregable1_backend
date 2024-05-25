@@ -55,11 +55,11 @@
 
 ## La ruta POST /:cid/product/:pid deberá agregar el producto al arreglo “products” del carrito seleccionado, agregándose como un objeto bajo el siguiente formato: ✅
 
+`http://localhost:5000/api/carts/2/product/3`
+
 - product: SÓLO DEBE CONTENER EL ID DEL PRODUCTO (Es crucial que no agregues el producto completo)
 - quantity: debe contener el número de ejemplares de dicho producto. El producto, de momento, se agregará de uno en uno.
 
 ## Además, si un producto ya existente intenta agregarse al producto, incrementar el campo quantity de dicho producto.✅
-
-`http://localhost:5000/api/carts/2/product/3`
 
 ## La persistencia de la información se implementará utilizando el file system, donde los archivos “productos,json” y “carrito.json”, respaldan la información. ✅
