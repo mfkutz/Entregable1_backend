@@ -1,9 +1,9 @@
 [
   {
     "title": "Product 1",
-    "description": "Description 1",
+    "description": "Description modified",
     "code": "P0001",
-    "price": 10,
+    "price": 110,
     "status": true,
     "stock": 100,
     "category": "category1",
@@ -31,5 +31,16 @@
     "category": "category3",
     "thumbnail": "/img/product3.jpg",
     "id": 3
+  },
+  {
+    "title": "Product 4",
+    "description": "Description 4",
+    "code": "P0004",
+    "price": 10,
+    "status": true,
+    "stock": 100,
+    "category": "category4",
+    "thumbnail": "/img/product4.jpg",
+    "id": 4
   }
 ]
