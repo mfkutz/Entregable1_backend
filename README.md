@@ -40,7 +40,7 @@
 
 `http://localhost:5000/api/products/4`
 
--- Para el carrito, el cual tendrá su router en /api/carts/, configurar dos rutas:
+## Para el carrito, el cual tendrá su router en /api/carts/, configurar dos rutas:
 
 ## La ruta raíz POST / deberá crear un nuevo carrito con la siguiente estructura: ✅
 
