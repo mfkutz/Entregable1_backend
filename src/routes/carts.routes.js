@@ -3,6 +3,15 @@ import CartManager from "../services/CartManager.js";
 
 const router = Router();
 
+router.post("/", async (req, res) => {
+  try {
+    const newCart = await CartManager.addCart();
+    res.status(200).json(newCart);
+  } catch (error) {
+    res.status(500).send(`Internal server error: ${error}`);
+  }
+});
+
 router.get("/:cid", async (req, res) => {
   try {
     const isId = parseInt(req.params.cid, 10);
