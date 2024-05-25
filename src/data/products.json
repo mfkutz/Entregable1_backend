@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Product 1",
+    "description": "Description 1",
+    "code": "P0001",
+    "price": 10,
+    "status": true,
+    "stock": 100,
+    "category": "category1",
+    "thumbnail": "/img/product1.jpg",
+    "id": 1
+  },
+  {
+    "title": "Product 2",
+    "description": "Description 2",
+    "code": "P0002",
+    "price": 10,
+    "status": true,
+    "stock": 100,
+    "category": "category2",
+    "thumbnail": "/img/product2.jpg",
+    "id": 2
+  },
+  {
+    "title": "Product 3",
+    "description": "Description 3",
+    "code": "P0003",
+    "price": 10,
+    "status": true,
+    "stock": 100,
+    "category": "category3",
+    "thumbnail": "/img/product3.jpg",
+    "id": 3
+  }
+]
