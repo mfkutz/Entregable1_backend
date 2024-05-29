@@ -1,4 +1,3 @@
-// const fs = require("fs");
 import fs from "fs";
 
 class Product {
@@ -145,5 +144,4 @@ class ProductManager {
   }
 }
 
-//For server use
 export default new ProductManager("./src/data/products.json");

@@ -63,3 +63,6 @@
 ## Además, si un producto ya existente intenta agregarse al producto, incrementar el campo quantity de dicho producto.✅
 
 ## La persistencia de la información se implementará utilizando el file system, donde los archivos “productos,json” y “carrito.json”, respaldan la información. ✅
+
+`-- Dependencies
+express ^4.19.2`

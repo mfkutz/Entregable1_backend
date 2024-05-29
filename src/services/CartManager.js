@@ -1,5 +1,5 @@
-import ProductManager from "./ProductManager.js";
 import fs from "fs";
+import ProductManager from "./ProductManager.js";
 
 class CartManager {
   constructor(path) {
@@ -96,5 +96,4 @@ class CartManager {
   }
 }
 
-//For server use
 export default new CartManager("./src/data/carts.json");

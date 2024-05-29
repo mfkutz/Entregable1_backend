@@ -5,11 +5,9 @@ import cartsRoutes from "./routes/carts.routes.js";
 const app = express();
 const PORT = 5000;
 
-//Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Routes
 app.use("/api/products", productsRoutes);
 app.use("/api/carts", cartsRoutes);
 
